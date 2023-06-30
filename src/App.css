@@ -1,0 +1,195 @@
+/* App.css */
+/* Reset styles */
+body,
+h1,
+h2,
+p,
+ul,
+li,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f9f9f9;
+  position: fixed;
+  width: 97%;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.navigation li a:hover {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rebeccapurple;
+  box-shadow: inset 0px -20px 0px -18px rebeccapurple;
+  cursor: pointer;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background-color: #444444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #000;
+}
+
+/* Hero Section styles */
+.hero {
+  padding: 180px 20px;
+  /* background-color: #f9f9f9; */
+  background-image: url('/public/front.jpg.png');
+  text-align: center;
+}
+
+
+.hero-content {
+  margin-bottom: 40px;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Product Features styles */
+.product-features {
+  padding: 50px 20px;
+  text-align: center;
+  background: rgba(199, 197, 197, 0.426);
+}
+
+.product-features h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.product-features img {
+  padding: 20px;
+  margin: 10px;
+  width: 30%;
+  height: 500px;
+}
+
+.product-features img :hover {
+  cursor: pointer;
+}
+
+/* Testimonials styles */
+.testimonials {
+  padding: 300px 20px;
+  text-align: center;
+  background-image: url('/public/how_it_works.png');
+}
+
+/* .testimonials h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+} */
+
+/* About Us styles */
+.about-us {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: beige;
+}
+
+.about-us h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.about-us p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 23px;
+}
+
+.about-us img {
+  width: 300px;
+  height: 400px;
+}
+
+/* Contact styles */
+.contact {
+  /* padding: 100px 20px; */
+  text-align: center;
+
+}
+
+/* .contact h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+} */
+
+/* Footer styles */
+.footer {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.footer p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.footer .navigation {
+  margin-top: 10px;
+}
+
+.footer .navigation li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer .navigation li a {
+  text-decoration: none;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.footer .navigation li a:hover {
+  color: #000;
+}
